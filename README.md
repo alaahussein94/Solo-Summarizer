@@ -12,7 +12,7 @@ This project consists of several phases:
 
 ## Usage
 
-Clone this repository, install the requirements, and then run the provided Jupyter Notebook to fine-tune the T5-small model on the BillSum dataset. The notebook will guide you through the entire process of data preprocessing, training, and generating summaries.
+Clone this repository, install the requirements, and then run the provided Jupyter Notebooks to fine-tune the T5 models on the BillSum dataset. The notebooks will guide you through the entire process of data preprocessing, training, and generating summaries.
 
 ## Dependencies
 
@@ -25,7 +25,11 @@ This project uses the following libraries:
 
 ## Results
 
+### Phase 1:
 The initial fine-tuning of the T5-small model on the BillSum dataset yielded promising results, with a Rouge1 score of 0.1436, Rouge2 score of 0.0514, RougeL score of 0.1188, and RougeLsum score of 0.119 on the evaluation set.
+
+### Phase 2:
+The fine-tuning and comparison of the T5-base and FLAN-T5-base models on the BillSum dataset provided valuable insights into their performance. The T5-base model showed an initial improvement but exhibited odd behavior after the first two epochs. The FLAN-T5-base model faced challenges such as a lack of recorded training loss. Further investigation and optimization are planned for the final phase of the project.
 
 ## License
 
