@@ -31,6 +31,9 @@ The initial fine-tuning of the T5-small model on the BillSum dataset yielded pro
 ### Phase 2:
 The fine-tuning and comparison of the T5-base and FLAN-T5-base models on the BillSum dataset provided valuable insights into their performance. The T5-base model showed an initial improvement but exhibited odd behavior after the first two epochs. The FLAN-T5-base model faced challenges such as a lack of recorded training loss. Further investigation and optimization are planned for the final phase of the project.
 
+### Phase 3:
+In this phase, we focused on optimizing the T5-base and FLAN-T5-base models, addressing the issues encountered during Phase 2. The optimizations led to improved performance on the BillSum dataset, and the final results were achieved. A detailed analysis of the model performance and comparison between the two models can be found in the project report.
+
 ## License
 
 This project is licensed under the MIT License.
